@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        //literal
+        username  = "shashwat jain"
+        console.log(username)
+        console.log(typeof(username)) 
+
+        //constructor
+        uname = String("shashwat jain")
+        console.log(uname)
+        console.log(typeof(uname))
+
+        // length
+        console.log(username.length)
+        
+        //index position
+        console.log(uname[0])
+        console.log(uname[1])
+        console.log(uname[2])
+        console.log(uname[3])
+        console.log(uname[4])
+        console.log(uname[5])
+        
+        // for loop
+        for (var i = 0 ; i < 6 ; i++){
+            console.log(uname[i])
+        }
+
+        // for in 
+        for (let i in uname){
+            console.log(i , uname[i])
+        }
+        
+        // for each
+        [username].forEach(element => {
+            console.log(element)
+        })
+
+    </script>
+</body>
+</html>
